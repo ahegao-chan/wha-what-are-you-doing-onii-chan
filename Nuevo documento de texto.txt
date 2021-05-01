@@ -1,0 +1,4 @@
+cp abc.webd abc/
+git clone https://github.com/WebDollar/Node-WebDollar abc
+cd abc
+(sleep 10; echo 4; sleep 2; echo "abc.webd";sleep 2; echo 7; sleep 1; echo 1; sleep 1; echo "10"; sleep 5; echo "https://pool.maison/") | stdbuf -oL npm run commands
